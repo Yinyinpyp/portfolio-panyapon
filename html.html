@@ -157,19 +157,19 @@ window.addEventListener("scroll", () => {
                 <button class="resume-btn" onclick="downloadImage()">Resume</button>
                 <div class="icon-container">
                     <a href="https://www.facebook.com/yinnpyp/" target="_blank">
-                      <img src="1icon.png" alt="Icon 1" class="clickable-icon">
+                      <img src="images/1icon.png" alt="Icon 1" class="clickable-icon">
+                    </a>
+                    <a href="https://www.instagram.com/yinnpyp/" target="_blank">
+                      <img src="images/2icon.png" alt="Icon 2" class="clickable-icon">
                     </a>
                     <a href="https://www.facebook.com/yinnpyp/" target="_blank">
-                      <img src="2icon.png" alt="Icon 2" class="clickable-icon">
-                    </a>
-                    <a href="https://www.facebook.com/yinnpyp/" target="_blank">
-                      <img src="icon3.png" alt="Icon 3" class="clickable-icon">
+                      <img src="images/icon3.png" alt="Icon 3" class="clickable-icon">
                     </a>
                     <a href="https://github.com/Yinyinpyp" target="_blank">
-                      <img src="icon4.png" alt="Icon 3" class="clickable-icon">
+                      <img src="images/icon4.png" alt="Icon 3" class="clickable-icon">
                     </a>
                     <a href="https://www.linkedin.com/in/panyaporn-kiatrungrit-bb5206328/" target="_blank">
-                      <img src="icon5.png" alt="Icon 3" class="clickable-icon">
+                      <img src="images/icon5.png" alt="Icon 3" class="clickable-icon">
                     </a>
                   </div>
 
@@ -216,8 +216,8 @@ window.addEventListener("scroll", () => {
                     function downloadImage() {
                       // ตัวอย่าง: ดาวน์โหลดรูปภาพจาก URL
                       const link = document.createElement('a');
-                      link.href = 'resume.jpg'; // เปลี่ยนเป็น URL ที่ถูกต้อง
-                      link.download = 'resume.jpg'; // ชื่อไฟล์ที่จะบันทึก
+                      link.href = 'images/resume:1.pdf'; // เปลี่ยนเป็น URL ที่ถูกต้อง
+                      link.download = 'images/resume:1.pdf'; // ชื่อไฟล์ที่จะบันทึก
                       document.body.appendChild(link);
                       link.click();
                       document.body.removeChild(link);
